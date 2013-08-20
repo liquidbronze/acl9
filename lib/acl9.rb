@@ -12,7 +12,7 @@ module Acl9
     :protect_global_roles       => false,
     :cache                      => false,
     :cache_prefix               => 'acl9',
-    :cache_ttl                  => 120.minutes,
+    :cache_ttl                  => 7200,
   }
 
   mattr_reader :config
